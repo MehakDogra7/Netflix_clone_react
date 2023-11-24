@@ -1,0 +1,181 @@
+[debug] [2023-11-24T13:15:50.007Z] ----------------------------------------------------------------------
+[debug] [2023-11-24T13:15:50.009Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-24T13:15:50.010Z] CLI Version:   12.9.1
+[debug] [2023-11-24T13:15:50.010Z] Platform:      win32
+[debug] [2023-11-24T13:15:50.010Z] Node Version:  v18.16.0
+[debug] [2023-11-24T13:15:50.011Z] Time:          Fri Nov 24 2023 18:45:50 GMT+0530 (India Standard Time)
+[debug] [2023-11-24T13:15:50.011Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-24T13:15:50.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-24T13:15:50.019Z] > authorizing via signed-in user (dogramehak005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mdogra\React\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-24T13:15:55.390Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-11-24T13:15:55.530Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: self-signed certificate in certificate chain
+[debug] [2023-11-24T13:15:55.530Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-11-24T13:15:55.631Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-11-24T13:16:00.914Z] ----------------------------------------------------------------------
+[debug] [2023-11-24T13:16:00.916Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-24T13:16:00.916Z] CLI Version:   12.9.1
+[debug] [2023-11-24T13:16:00.917Z] Platform:      win32
+[debug] [2023-11-24T13:16:00.917Z] Node Version:  v18.16.0
+[debug] [2023-11-24T13:16:00.918Z] Time:          Fri Nov 24 2023 18:46:00 GMT+0530 (India Standard Time)
+[debug] [2023-11-24T13:16:00.918Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-24T13:16:00.927Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-24T13:16:00.927Z] > authorizing via signed-in user (dogramehak005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mdogra\React\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-11-24T13:16:20.565Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-11-24T13:16:20.566Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"007","name":"netflix_clone_react"}
+[debug] [2023-11-24T13:16:20.865Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects, {"headers":{},"method":"POST","signal":{},"body":"{\"projectId\":\"007\",\"name\":\"netflix_clone_react\"}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects failed, reason: self-signed certificate in certificate chain
+[debug] [2023-11-24T13:16:21.026Z] FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects
+    at RetryOperation._fn (C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-11-24T13:16:29.866Z] ----------------------------------------------------------------------
+[debug] [2023-11-24T13:16:29.868Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-24T13:16:29.868Z] CLI Version:   12.9.1
+[debug] [2023-11-24T13:16:29.868Z] Platform:      win32
+[debug] [2023-11-24T13:16:29.868Z] Node Version:  v18.16.0
+[debug] [2023-11-24T13:16:29.869Z] Time:          Fri Nov 24 2023 18:46:29 GMT+0530 (India Standard Time)
+[debug] [2023-11-24T13:16:29.869Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-24T13:16:29.874Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-24T13:16:29.874Z] > authorizing via signed-in user (dogramehak005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mdogra\React\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-24T13:16:35.531Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-11-24T13:16:35.632Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: self-signed certificate in certificate chain
+[debug] [2023-11-24T13:16:35.633Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-11-24T13:16:35.702Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-11-24T13:16:47.114Z] ----------------------------------------------------------------------
+[debug] [2023-11-24T13:16:47.115Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-24T13:16:47.116Z] CLI Version:   12.9.1
+[debug] [2023-11-24T13:16:47.116Z] Platform:      win32
+[debug] [2023-11-24T13:16:47.116Z] Node Version:  v18.16.0
+[debug] [2023-11-24T13:16:47.117Z] Time:          Fri Nov 24 2023 18:46:47 GMT+0530 (India Standard Time)
+[debug] [2023-11-24T13:16:47.117Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-24T13:16:47.123Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-24T13:16:47.123Z] > authorizing via signed-in user (dogramehak005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mdogra\React\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-24T13:16:51.352Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-11-24T13:16:51.541Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: self-signed certificate in certificate chain
+[debug] [2023-11-24T13:16:51.542Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-11-24T13:16:51.848Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-11-24T13:42:36.795Z] ----------------------------------------------------------------------
+[debug] [2023-11-24T13:42:36.797Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-24T13:42:36.797Z] CLI Version:   12.9.1
+[debug] [2023-11-24T13:42:36.797Z] Platform:      win32
+[debug] [2023-11-24T13:42:36.797Z] Node Version:  v18.16.0
+[debug] [2023-11-24T13:42:36.798Z] Time:          Fri Nov 24 2023 19:12:36 GMT+0530 (India Standard Time)
+[debug] [2023-11-24T13:42:36.798Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-24T13:42:36.804Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-24T13:42:36.804Z] > authorizing via signed-in user (dogramehak005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mdogra\React\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-24T13:42:42.535Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-11-24T13:42:42.659Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: self-signed certificate in certificate chain
+[debug] [2023-11-24T13:42:42.659Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-11-24T13:42:42.790Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\mdogra\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

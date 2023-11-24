@@ -1,0 +1,39 @@
+.row {
+    color: white;
+    margin-left: 20px;
+}
+
+/* entire row */
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* keep the scrollbar ut dont show */
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+/* images */
+.row_poster {
+    object-fit:contain;
+    width:100%;
+    max-height:100px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+
+.row_poster:hover {
+    transform: scale(1.08);
+}
+
+/* trending rows has different style */
+.row_posterLarge {
+    max-height: 250px;
+}
+
+.row_posterLarge:hover {
+    transform: scale(1.09);
+}
